@@ -1,0 +1,121 @@
+body{
+    margin:0;
+    padding:0;
+}
+header{
+    background-image:url(img/chaussures_montagne.JPG);
+    width:auto;
+    height:50em;
+    background-size:150%;
+    background-position:center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+#marmotte{
+    width: 10em;
+    margin-top:20px;
+    margin-left: 20px;
+}
+nav{
+    text-align:center;
+    margin:10px;
+    text-shadow: 3px 6px 3px rgb(56, 96, 62);
+}
+ul{
+    list-style: none;
+}
+li{
+    display:inline;
+    margin : 10px;
+    font-size: 1.5em;
+}
+h1{
+    text-align:center;
+    text-shadow: 3px 6px 3px rgba(56, 96, 62);
+    font-size: 3.5em;
+    justify-self: flex-start;
+}
+section{
+    display: flex;
+}
+article{
+    flex-direction: row;
+    width: 30%;
+    margin-left:2.5%;
+    background-color: rgba(93, 142, 171, 0.3);
+    margin-top: 10px;
+    text-align: center;
+    height: auto;
+    margin-bottom: 10%;
+    margin-top: 10%;
+}
+.lathuile, .chapelle, .lac{
+    width: 60%;
+    text-align: center;
+}
+article > p {
+    padding: 1rem;
+}
+footer{
+    background-image:url(img/bois.JPG);
+    width:auto;
+    height:auto;
+    background-size:100%;
+    background-position:center;
+    background-repeat: repeat;
+    color: orangered;
+    font-weight: bold;
+    font-size: 1.5em;
+    padding-top: 1px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+li a{
+    color: white;
+    text-decoration: none;
+}
+li a:hover{
+    text-shadow: black 3px 3px 3px ;
+}
+article a{
+    color: black;
+    text-decoration: none;
+}
+article a:hover{
+    text-shadow: black 3px 3px 3px ;
+}
+#nom, #prénom, #mail, #message, #envoyer{
+    display:block;
+}
+form{
+    margin: 60px;
+    color:black;
+}
+#envoyer {
+    margin-top: 1rem;
+}
+.container{
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    width:auto;
+    background-color: white;
+    padding-top: 3rem;
+    padding-bottom: 3rem;  
+}
+table{
+    font-size: 1em;
+    border-collapse:separate;
+    border-spacing: 15px;
+}
+textarea{
+    width:auto;
+}
+td{
+    padding-right:10px;
+    text-align:center;
+}
