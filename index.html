@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" media="screen" href="style.css" />
+    <link rel="stylesheet" media="screen and (max-width: 640px)" href="small.css" /> 
+    <title>Balises HTML5</title>
+</head>
+<body>
+    <main>
+            <header>
+                <img id="marmotte" src="img/marmotte_2.jpg" alt="logo marmotte">
+                <h1>Trois balades à découvrir</h1>
+
+                <nav>
+                    <ul>
+                        <li><a href="#article1">La thuile </a></li>
+                        <li><a href="#article2">Bellevaux</a></li>
+                        <li><a href="#article3">Lac noir</a></li>
+                    </ul>
+                </nav>
+            </header>  
+
+        <section>
+            <article id="article1">
+                <h2><a href="https://www.cabanes-lahaut.com/parc-des-bauges/sentiers-lac-de-la-thuile.htm" target="_blank">Les sentiers autour du lac de la Thuile</a></h2>
+                <a href="https://www.cabanes-lahaut.com/parc-des-bauges/sentiers-lac-de-la-thuile.htm" target="_blank"><img class="lathuile" src="img/lac_thuile_neige.JPG" alt="le lac de la Thuile"></a>
+                <p>Plusieurs kilomètres de sentiers parcourent la commune de La Thuile</p>
+            </article>
+
+            <article id="article2">
+                <h2><a href="https://www.lesbauges.com/notre-dame-de-bellevaux.html" target="_blank">La chapelle de Bellevaux</a></h2>
+                <a href="https://www.lesbauges.com/notre-dame-de-bellevaux.html" target="_blank"><img class="chapelle" src="img/bellevaux_chapelle.jpg" alt="la chapelle de Bellevaux"></a>
+                <p>La chapelle de Bellevaux ou Notre Dame de Bellevaux</p>
+            </article>
+
+            <article id="article3">
+                <h2><a href="https://www.sentier-nature.com/montagne/post/2011/06/04/341-lac-noir-sentier-charbonniers" target="_blank">Le lac noir</a></h2>
+                <a href="https://www.sentier-nature.com/montagne/post/2011/06/04/341-lac-noir-sentier-charbonniers" target="_blank"><img class="lac" src="img/lac_noir.jpg" alt="le lac noir"></a>
+                <p>Dans la forêt, sous le Granier, se cache un petit lac, appelé Lac noir.
+                Autrefois, les hommes travaillaient à fabriquer du charbon dans les bois alentours. 
+                </p>
+            </article>
+
+        </section>
+
+
+        <footer>
+            <form method="post" action="traitement.php">
+                <fieldset>
+                    <legend>Formulaire de contact</legend>
+                        <label for="nom">Nom</label> : <input type="text" name="nom" id="nom" required>
+                        <label for="prénom">Prénom</label> : <input type="text" name="prénom" id="prénom" required>
+                        <label for="mail">Votre mail</label> :<input type="mail" id="mail" required>
+                        <label for="message">Votre message</label> : <textarea cols="22" rows="8" id="message" required></textarea>
+
+                        <input type="submit" value="Envoyer" id="envoyer">
+                </fieldset>
+            </form>
+
+
+            <div class="container">
+                <table>
+                    <tr>
+                        <td>Mentions légales</td>
+                        <td>À propos</td>
+                        <td>Politique des cookies</td>
+                    </tr>
+
+                </table>
+
+                <table>
+                    <tr>
+                        <td><img src="img/facebook.svg"></td>
+                        <td><img src="img/instagram.svg"></td>
+                        <td><img src="img/linkedin.svg"></td>
+                    </tr>
+
+                </table>
+
+            </div>
+
+        </footer>
+    </main>
+</body>
+</html>
