@@ -1,5 +1,10 @@
-nav{
-    display: none;
+nav {
+    margin-top: 5rem;
+} 
+ul{
+    display: flex;
+    flex-direction:column;
+    padding:0;
 }
 #marmotte{
     width: 20%;
